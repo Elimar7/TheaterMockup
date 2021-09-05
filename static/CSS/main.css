@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+html {
+    font-size: 9px;
+    font-family: 'Roboto', san-serif;
+}
+a{
+    text-decoration: none;
+}
+.container {
+min-height: 100vh;
+width: 100;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#grad1 {
+    height: 200px;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(3, 27, 49));
+  }
+
+  #map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
